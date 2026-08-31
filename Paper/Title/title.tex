@@ -1,0 +1,21 @@
+\documentclass[12pt]{article}
+\usepackage[letterpaper, margin=.2in, landscape]{geometry} % landscape page
+\usepackage{graphicx} % for \rotatebox
+
+\begin{document}
+\pagestyle{empty}
+
+% Center vertically
+\vspace*{\fill}
+\begin{center}
+    % Rotate a box and wrap text inside
+    \rotatebox{90}{
+        \begin{minipage}{\textheight} % width = height of page
+            \centering
+            \Huge \textbf{Does Shohei Ohtani hit differently when pitching compared to when not pitching?}
+        \end{minipage}
+    }
+\end{center}
+\vspace*{\fill}
+
+\end{document}
