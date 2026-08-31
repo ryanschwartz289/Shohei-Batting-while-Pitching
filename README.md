@@ -1,3 +1,3 @@
 ## Paper
 
-[View the paper (PDF)](presentation.pdf)
+[View the paper (PDF)](main.pdf)
